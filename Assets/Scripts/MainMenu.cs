@@ -19,7 +19,7 @@ public class MainMenu : MonoBehaviour
     }
     public void toBeatRunEaster()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("UnirunBased");
     }
     public void LevelSelect()
     {
