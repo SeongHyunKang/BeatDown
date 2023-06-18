@@ -6,6 +6,7 @@ using Melanchall.DryWetMidi.Interaction;
 using System.IO;
 using UnityEngine.Networking;
 using System;
+using Unity.VisualScripting;
 using UnityEngine.SceneManagement;
 
 public class SongManager : MonoBehaviour
@@ -16,7 +17,7 @@ public class SongManager : MonoBehaviour
     public float songDelayInSeconds;
     public double marginOfError; // in seconds
     public int inputDelayInMilliseconds;
-
+    
     public string fileLocation;
     public float noteTime;
     public float noteSpawnX;
@@ -30,7 +31,7 @@ public class SongManager : MonoBehaviour
         }
     }
 
-    public static MidiFile midiFile;
+    [SerializeField] public static MidiFile midiFile;
 
     void Start()
     {
@@ -68,7 +69,18 @@ public class SongManager : MonoBehaviour
 
     private void ReadFromFile()
     {
-        midiFile = MidiFile.Read(Application.streamingAssetsPath + "/" + fileLocation);
+        if (Application.isEditor)
+        {
+            print("Running on Editor");
+            midiFile = MidiFile.Read(Application.streamingAssetsPath + "/" + fileLocation);
+        }
+        else if (Application.platform == RuntimePlatform.Android)
+        {
+            print("Running on Android");
+            string filePath = Path.Combine ("jar:file://" + Application.dataPath + "!assets/", fileLocation);
+            midiFile = MidiFile.Read(filePath);
+        }
+        
         GetDataFromMidi();
     }
 

@@ -14,6 +14,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StaticGameData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerAnimationNew.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreDisplay.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1EE5422F-8CE7-4A06-8318-27BB5F773E0A/AD/MidiFile.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -67,6 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1687060728751</updated>
       <workItem from="1687060734526" duration="2772000" />
+      <workItem from="1687129971828" duration="1350000" />
     </task>
     <servers />
   </component>
