@@ -544,7 +544,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 1b5d59d031aac0c4caf98bede65875c9, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 235a5938ce44f4c4d91e74e92d869dc6, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1128,6 +1128,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 746411626}
   jumpDistance: 5
+  jumpHeight: 1
+  jumpHeightMultiplier: 3
 --- !u!1 &849021166
 GameObject:
   m_ObjectHideFlags: 0
@@ -1198,7 +1200,7 @@ MonoBehaviour:
   songDelayInSeconds: 0
   marginOfError: 0.15
   inputDelayInMilliseconds: 0
-  fileLocation: Not_Found.mid
+  fileLocation: Bad_Request.mid
   noteTime: 1
   noteSpawnX: 11
   noteTapX: -6

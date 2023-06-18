@@ -544,7 +544,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 1b5d59d031aac0c4caf98bede65875c9, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e70d7ae31b5371c41910232cf6e40dd0, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1198,7 +1198,7 @@ MonoBehaviour:
   songDelayInSeconds: 0
   marginOfError: 0.15
   inputDelayInMilliseconds: 0
-  fileLocation: Not_Found.mid
+  fileLocation: Forbidden.mid
   noteTime: 1
   noteSpawnX: 11
   noteTapX: -6

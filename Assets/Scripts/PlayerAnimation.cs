@@ -4,11 +4,14 @@ public class PlayerAnimation : MonoBehaviour
 {
     public Animator playerAnimator;
     public float jumpDistance = 0.5f;
+    public float jumpHeight = 1f;
+    public float jumpHeightMultiplier = 3f;
 
     private bool isJumping = false;
     private Coroutine jumpCoroutine;
     private Vector3 startPosition;
     private Vector3 jumpStartPosition;
+    private int jumpCount = 0;
 
     private void Start()
     {
@@ -23,31 +26,23 @@ public class PlayerAnimation : MonoBehaviour
             if (isJumping)
             {
                 StopJump();
-                ReturnToStartPosition();
-                PlayAttackAnimation();
             }
-            else if (!isJumping)
-            {
-                PlayAttackAnimation();
-            }
+            ReturnToGround();
+            PlayAttackAnimation();
         }
         else if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             if (!isJumping)
             {
+                StopAllAnimations();
                 StartJump();
             }
             else
             {
                 StopJump();
-                ReturnToStartPosition();
-                PlayAttackAnimation();
             }
-        }
-
-        if (!isJumping && transform.position != startPosition)
-        {
-            transform.position = Vector3.MoveTowards(transform.position, startPosition, Time.deltaTime * 20f);
+            ReturnToGround();
+            PlayJumpAnimation();
         }
     }
 
@@ -59,39 +54,55 @@ public class PlayerAnimation : MonoBehaviour
         }
     }
 
-    private void StartJump()
+    private void PlayJumpAnimation()
     {
         if (playerAnimator != null)
         {
-            isJumping = true;
             playerAnimator.SetTrigger("Jump");
-            jumpStartPosition = transform.position;
-            jumpCoroutine = StartCoroutine(JumpCoroutine());
         }
+    }
+
+    private void StartJump()
+    {
+        isJumping = true;
+        jumpStartPosition = transform.position;
+        jumpCoroutine = StartCoroutine(JumpCoroutine());
+        jumpCount++;
     }
 
     private void StopJump()
     {
-        if (playerAnimator != null && isJumping && jumpCoroutine != null)
+        if (isJumping && jumpCoroutine != null)
         {
             isJumping = false;
-            playerAnimator.ResetTrigger("Jump");
             StopCoroutine(jumpCoroutine);
         }
     }
 
-    private void ReturnToStartPosition()
+    private void ReturnToGround()
     {
         transform.position = startPosition;
         jumpStartPosition = startPosition;
+        jumpCount = 0;
+    }
+
+    private void StopAllAnimations()
+    {
+        if (playerAnimator != null)
+        {
+            playerAnimator.ResetTrigger("Attack");
+            playerAnimator.ResetTrigger("Jump");
+        }
     }
 
     private System.Collections.IEnumerator JumpCoroutine()
     {
-        Vector3 jumpTarget = jumpStartPosition + Vector3.up * jumpDistance;
+        float jumpTargetHeight = jumpStartPosition.y + jumpHeight * jumpHeightMultiplier;
 
-        while (isJumping && transform.position != jumpTarget)
+        while (isJumping && transform.position.y < jumpTargetHeight)
         {
+            float yOffset = jumpHeight * jumpHeightMultiplier * jumpCount - jumpHeight * jumpHeightMultiplier * (jumpCount - 1);
+            Vector3 jumpTarget = jumpStartPosition + Vector3.up * yOffset;
             transform.position = Vector3.MoveTowards(transform.position, jumpTarget, Time.deltaTime * 20f);
             yield return null;
         }
