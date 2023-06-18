@@ -2547,6 +2547,7 @@ MonoBehaviour:
   hitSFX: {fileID: 1671448729}
   missSFX: {fileID: 232379679}
   scoreText: {fileID: 1758616159}
+  RankScores: 140000000f0000000a000000
 --- !u!4 &1712150678
 Transform:
   m_ObjectHideFlags: 0

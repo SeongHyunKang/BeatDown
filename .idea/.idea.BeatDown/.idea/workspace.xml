@@ -11,14 +11,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StaticGameData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerAnimationNew.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreDisplay.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/SongManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Note.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerAnimationNew.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/StaticGameData.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ScoreDisplay.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SongManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2RMX3anMiBpxJtDIHEvImFqAnd5" />

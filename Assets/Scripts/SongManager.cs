@@ -6,6 +6,7 @@ using Melanchall.DryWetMidi.Interaction;
 using System.IO;
 using UnityEngine.Networking;
 using System;
+using UnityEngine.SceneManagement;
 
 public class SongManager : MonoBehaviour
 {
@@ -94,6 +95,9 @@ public class SongManager : MonoBehaviour
 
     void Update()
     {
-        
+        if (!audiosource.isPlaying)
+        {
+            SceneManager.LoadScene("EndScreen");
+        }
     }
 }
