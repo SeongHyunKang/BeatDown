@@ -9,12 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: 03aafa91d4b5fd440a284ea824139d70
   - enabled: 1
-    path: Assets/Scenes/RhythmGameBase.unity
+    path: Assets/Scenes/NotFound.unity
     guid: 98f810f23af9a78499550f2c7b440d46
   - enabled: 1
     path: Assets/Scenes/UnirunBased.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/Options.unity
-    guid: e2130924106485d47aa829cbf982e0fc
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}

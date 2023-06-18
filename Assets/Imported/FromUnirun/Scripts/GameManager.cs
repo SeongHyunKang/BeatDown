@@ -33,9 +33,9 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        if (isGameover && Input.GetMouseButtonDown(0))
+        if ((Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began) || isGameover && Input.GetMouseButtonDown(0))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene(0);
         }
 
         if (!isGameover)

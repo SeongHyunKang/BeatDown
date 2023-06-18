@@ -13,8 +13,12 @@ public class MainMenu : MonoBehaviour
     {
         Application.Quit();
     }
-    public void toCharacterSelection()
+    public void toNotFound()
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(1);
+    }
+    public void toBeatRunEaster()
+    {
+        SceneManager.LoadScene(2);
     }
 }

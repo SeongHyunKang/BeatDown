@@ -1422,7 +1422,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Jump to Restart
+  m_Text: Back to Menu
 --- !u!222 &1756927891
 CanvasRenderer:
   m_ObjectHideFlags: 0
