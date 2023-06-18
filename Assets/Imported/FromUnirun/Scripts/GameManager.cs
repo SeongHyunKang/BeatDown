@@ -43,7 +43,7 @@ public class GameManager : MonoBehaviour
             float currentTime = Time.time - startTime;
             distance = currentTime;
             float distanceWithDecimal = Mathf.Floor(distance * 100) / 100;
-            scoreText.text = "Distance: " + distanceWithDecimal.ToString("F2") + "m";
+            scoreText.text = "Distance : " + distanceWithDecimal.ToString("F2") + "m";
         }
     }
 
