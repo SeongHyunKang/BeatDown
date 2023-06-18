@@ -3,11 +3,11 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Lane : MonoBehaviour
 {
     public Melanchall.DryWetMidi.MusicTheory.NoteName noteRestriction;
-    public KeyCode input;
     public GameObject notePrefab;
     List<Note> notes = new List<Note>();
     public List<double> timeStamps = new List<double>();
@@ -15,16 +15,19 @@ public class Lane : MonoBehaviour
     int spawnIndex = 0;
     int inputIndex = 0;
 
+    public Button inputButton;
+
     void Start()
     {
-        
+        // 외부 UI 버튼에 클릭 이벤트 핸들러 설정
+        inputButton.onClick.AddListener(InputButtonClicked);
     }
 
     public void SetTimeStamps(Melanchall.DryWetMidi.Interaction.Note[] array)
     {
         foreach (var note in array)
         {
-            if(note.NoteName == noteRestriction)
+            if (note.NoteName == noteRestriction)
             {
                 var metricTimeSpan = TimeConverter.ConvertTo<MetricTimeSpan>(note.Time, SongManager.midiFile.GetTempoMap());
                 timeStamps.Add((double)metricTimeSpan.Minutes * 60f + metricTimeSpan.Seconds + (double)metricTimeSpan.Milliseconds / 1000f);
@@ -34,9 +37,9 @@ public class Lane : MonoBehaviour
 
     void Update()
     {
-        if(spawnIndex < timeStamps.Count)
+        if (spawnIndex < timeStamps.Count)
         {
-            if(SongManager.GetAudioSourceTime() >= timeStamps[spawnIndex] - SongManager.Instance.noteTime)
+            if (SongManager.GetAudioSourceTime() >= timeStamps[spawnIndex] - SongManager.Instance.noteTime)
             {
                 var note = Instantiate(notePrefab, transform);
                 notes.Add(note.GetComponent<Note>());
@@ -45,32 +48,40 @@ public class Lane : MonoBehaviour
             }
         }
 
-        if(inputIndex < timeStamps.Count)
+        if (inputIndex < timeStamps.Count)
         {
             double timeStamp = timeStamps[inputIndex];
             double marginOfError = SongManager.Instance.marginOfError;
             double audioTime = SongManager.GetAudioSourceTime() - (SongManager.Instance.inputDelayInMilliseconds / 1000.0);
-            
-            if(Input.GetKeyDown(input))
-            {
-                if(Math.Abs(audioTime - timeStamp)<marginOfError)
-                {
-                    Hit();
-                    print($"Hit on {inputIndex} note");
-                    Destroy(notes[inputIndex].gameObject);
-                    inputIndex++;
-                }
-                else
-                {
-                    print($"HIt inaccurate on {inputIndex} note with {Math.Abs(audioTime - timeStamp)} delay");
-                }
-            }
-            if(timeStamp + marginOfError <= audioTime)
+
+            if (timeStamp + marginOfError <= audioTime)
             {
                 Miss();
                 print($"Missed {inputIndex} note");
                 inputIndex++;
             }
+        }
+    }
+
+    private void InputButtonClicked()
+    {
+        if (inputIndex >= timeStamps.Count)
+            return;
+
+        double timeStamp = timeStamps[inputIndex];
+        double marginOfError = SongManager.Instance.marginOfError;
+        double audioTime = SongManager.GetAudioSourceTime() - (SongManager.Instance.inputDelayInMilliseconds / 1000.0);
+
+        if (Math.Abs(audioTime - timeStamp) < marginOfError)
+        {
+            Hit();
+            print($"Hit on {inputIndex} note");
+            Destroy(notes[inputIndex].gameObject);
+            inputIndex++;
+        }
+        else
+        {
+            print($"HIt inaccurate on {inputIndex} note with {Math.Abs(audioTime - timeStamp)} delay");
         }
     }
 
@@ -84,3 +95,4 @@ public class Lane : MonoBehaviour
         ScoreManager.Miss();
     }
 }
+
