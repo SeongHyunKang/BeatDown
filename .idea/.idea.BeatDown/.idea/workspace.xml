@@ -13,6 +13,8 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SongManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Note.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2RMX3anMiBpxJtDIHEvImFqAnd5" />
@@ -56,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687060728751</updated>
-      <workItem from="1687060734526" duration="675000" />
+      <workItem from="1687060734526" duration="2772000" />
     </task>
     <servers />
   </component>
