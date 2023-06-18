@@ -2529,7 +2529,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitSFX: {fileID: 1671448729}
   missSFX: {fileID: 232379679}
-  scoreText: {fileID: 0}
+  scoreText: {fileID: 1758616159}
 --- !u!4 &1712150678
 Transform:
   m_ObjectHideFlags: 0
