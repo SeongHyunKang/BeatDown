@@ -409,8 +409,12 @@ struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
 struct U3CJumpCoroutineU3Ed__17_t44EF9EF9CC744F31D83FA292D06DCBEB1EA84089;
 // UnityEngine.UI.Slider/SliderEvent
 struct SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555;
+// SongManager/<ReadFromAndroid>d__16
+struct U3CReadFromAndroidU3Ed__16_t67F40B7B965A59258AA8AB4C6032355C3F0702AC;
 // SongManager/<ReadFromWebsite>d__14
 struct U3CReadFromWebsiteU3Ed__14_t4FC8A1D0684115D48ACE52B842DE5624AD9E1A8C;
+// SongManager/<ReadMidiFileFromAndroid>d__17
+struct U3CReadMidiFileFromAndroidU3Ed__17_t5205E8DC1294060FF1F59D26D18023761A69A1AA;
 // System.IO.Stream/ReadWriteTask
 struct ReadWriteTask_t0821BF49EE38596C7734E86E1A6A39D769BE2C05;
 
@@ -429,23 +433,25 @@ IL2CPP_EXTERN_C RuntimeClass* MemoryStream_tAAED1B42172E3390584E4194308AB878E786
 IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* NoteU5BU5D_t31439D70FFE6AAEC4770095C12F552EC2190A416_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CJumpCoroutineU3Ed__17_t44EF9EF9CC744F31D83FA292D06DCBEB1EA84089_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CReadFromAndroidU3Ed__16_t67F40B7B965A59258AA8AB4C6032355C3F0702AC_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CReadFromWebsiteU3Ed__14_t4FC8A1D0684115D48ACE52B842DE5624AD9E1A8C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CReadMidiFileFromAndroidU3Ed__17_t5205E8DC1294060FF1F59D26D18023761A69A1AA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral062DB096C728515E033CF8C48A1C1F0B9A79384B;
 IL2CPP_EXTERN_C String_t* _stringLiteral06CF41BA66D0BBD786673B743CD4840A4EE6CA18;
 IL2CPP_EXTERN_C String_t* _stringLiteral09684B67A5909FD48E1F14A8AF8DDD483C620B10;
-IL2CPP_EXTERN_C String_t* _stringLiteral12EA0C6AE04150ED2C21A6D43AC4D0ECA9AE5C7B;
 IL2CPP_EXTERN_C String_t* _stringLiteral138036CF00DC7AA638E8C59DE658B2B707E5188E;
+IL2CPP_EXTERN_C String_t* _stringLiteral218F5A08519088A96BE3C1074984C53EA49F1CCA;
 IL2CPP_EXTERN_C String_t* _stringLiteral2409165FB90CD4A8B916FCA75790766B82C91748;
 IL2CPP_EXTERN_C String_t* _stringLiteral2602033F3FB1AFC0B39748C6EFF8947CCC0FB539;
-IL2CPP_EXTERN_C String_t* _stringLiteral2746B283A9377664FAC642B633C6E630FD0DA207;
 IL2CPP_EXTERN_C String_t* _stringLiteral28D39098172467059F02372C4A6F08C47866995B;
 IL2CPP_EXTERN_C String_t* _stringLiteral3AE148F4539A6130C80EF45C5441F068ADBF8C8C;
 IL2CPP_EXTERN_C String_t* _stringLiteral3C1A6E4CEFF65BE6A1D9E90EBE606845607965C1;
@@ -501,7 +507,9 @@ IL2CPP_EXTERN_C const RuntimeMethod* PlayerAnimationNew_DashButtonClicked_m01A75
 IL2CPP_EXTERN_C const RuntimeMethod* PlayerAnimationNew_JumpButtonClicked_m365D526EBAD30932C5CAC3D8CB4D560C19FFC68E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TimeConverter_ConvertTo_TisMetricTimeSpan_t491FA133C4ED03471BAF2B620501F2D1321D37A9_m2E1D9BFB0AFA2EB461FFB4F11627C84E1E6DB276_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CJumpCoroutineU3Ed__17_System_Collections_IEnumerator_Reset_mA0E54BC6FD91EF53C4E0C49F496869B338758487_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CReadFromAndroidU3Ed__16_System_Collections_IEnumerator_Reset_m5E88A45F41FA0D6CC9095BDE6544B96EC8626AF9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CReadFromWebsiteU3Ed__14_System_Collections_IEnumerator_Reset_m1502770C068C8883251FB171A4DEB516C9E19C7B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CReadMidiFileFromAndroidU3Ed__17_System_Collections_IEnumerator_Reset_mCAFF7261A97AB49B2A5DFC3A9B1130AAF7882BEE_RuntimeMethod_var;
 struct CertificateHandler_t148B524FA5DB39F3ABADB181CD420FC505C33804_marshaled_com;
 struct ContactPoint2D_t16A7EE2DDFB4FA3A09C6554E11F30CEDAEBFA801;
 struct Delegate_t_marshaled_com;
@@ -758,6 +766,19 @@ struct U3CJumpCoroutineU3Ed__17_t44EF9EF9CC744F31D83FA292D06DCBEB1EA84089  : pub
 	float ___U3CjumpTargetHeightU3E5__2_3;
 };
 
+// SongManager/<ReadFromAndroid>d__16
+struct U3CReadFromAndroidU3Ed__16_t67F40B7B965A59258AA8AB4C6032355C3F0702AC  : public RuntimeObject
+{
+	// System.Int32 SongManager/<ReadFromAndroid>d__16::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Object SongManager/<ReadFromAndroid>d__16::<>2__current
+	RuntimeObject* ___U3CU3E2__current_1;
+	// SongManager SongManager/<ReadFromAndroid>d__16::<>4__this
+	SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3* ___U3CU3E4__this_2;
+	// UnityEngine.Networking.UnityWebRequest SongManager/<ReadFromAndroid>d__16::<www>5__2
+	UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___U3CwwwU3E5__2_3;
+};
+
 // SongManager/<ReadFromWebsite>d__14
 struct U3CReadFromWebsiteU3Ed__14_t4FC8A1D0684115D48ACE52B842DE5624AD9E1A8C  : public RuntimeObject
 {
@@ -769,6 +790,21 @@ struct U3CReadFromWebsiteU3Ed__14_t4FC8A1D0684115D48ACE52B842DE5624AD9E1A8C  : p
 	SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3* ___U3CU3E4__this_2;
 	// UnityEngine.Networking.UnityWebRequest SongManager/<ReadFromWebsite>d__14::<www>5__2
 	UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___U3CwwwU3E5__2_3;
+};
+
+// SongManager/<ReadMidiFileFromAndroid>d__17
+struct U3CReadMidiFileFromAndroidU3Ed__17_t5205E8DC1294060FF1F59D26D18023761A69A1AA  : public RuntimeObject
+{
+	// System.Int32 SongManager/<ReadMidiFileFromAndroid>d__17::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Object SongManager/<ReadMidiFileFromAndroid>d__17::<>2__current
+	RuntimeObject* ___U3CU3E2__current_1;
+	// System.String SongManager/<ReadMidiFileFromAndroid>d__17::filePath
+	String_t* ___filePath_2;
+	// SongManager SongManager/<ReadMidiFileFromAndroid>d__17::<>4__this
+	SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3* ___U3CU3E4__this_3;
+	// UnityEngine.Networking.UnityWebRequest SongManager/<ReadMidiFileFromAndroid>d__17::<reader>5__2
+	UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___U3CreaderU3E5__2_4;
 };
 
 // System.Nullable`1<System.UInt16>
@@ -3427,9 +3463,17 @@ struct TempoMap_t943512BE83E5E70E63DC95142773AD3D675AF0A2_StaticFields
 
 // PlayerAnimation/<JumpCoroutine>d__17
 
+// SongManager/<ReadFromAndroid>d__16
+
+// SongManager/<ReadFromAndroid>d__16
+
 // SongManager/<ReadFromWebsite>d__14
 
 // SongManager/<ReadFromWebsite>d__14
+
+// SongManager/<ReadMidiFileFromAndroid>d__17
+
+// SongManager/<ReadMidiFileFromAndroid>d__17
 
 // System.Boolean
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
@@ -4612,10 +4656,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Application_get_isEditor_mEAC51E3ACE6DCE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MidiFile_tAA982CB4F6D670B3B5AB422344082BCB8A4A5F84* MidiFile_Read_m067EDA91ED1E76DEC56E44E80DDB9622256560E6 (String_t* ___0_filePath, ReadingSettings_tF6FB07BE4370AC0C2C6558DE6E4212766ED2A53F* ___1_settings, const RuntimeMethod* method) ;
 // UnityEngine.RuntimePlatform UnityEngine.Application::get_platform()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138 (const RuntimeMethod* method) ;
-// System.String System.String::Concat(System.String,System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m093934F71A9B351911EE46311674ED463B180006 (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, String_t* ___3_str3, const RuntimeMethod* method) ;
-// System.Void SongManager::GetDataFromMidi()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SongManager_GetDataFromMidi_mD408189890DEE65235775E407BEEDEDCE9DD9BCB (SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3* __this, const RuntimeMethod* method) ;
+// System.Collections.IEnumerator SongManager::ReadFromAndroid()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SongManager_ReadFromAndroid_m2301567B873A15C4C2B2A48BCAF02C5B1C0D56E4 (SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3* __this, const RuntimeMethod* method) ;
+// System.Void SongManager/<ReadFromAndroid>d__16::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CReadFromAndroidU3Ed__16__ctor_mC3D83FA5316656638E0BFD7EF2160BFB28C5108A (U3CReadFromAndroidU3Ed__16_t67F40B7B965A59258AA8AB4C6032355C3F0702AC* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+// System.Void SongManager/<ReadMidiFileFromAndroid>d__17::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CReadMidiFileFromAndroidU3Ed__17__ctor_m48EBEFBFDDA6E204511457957D4BF3D4B3CACD1B (U3CReadMidiFileFromAndroidU3Ed__17_t5205E8DC1294060FF1F59D26D18023761A69A1AA* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 // System.Collections.Generic.ICollection`1<Melanchall.DryWetMidi.Interaction.Note> Melanchall.DryWetMidi.Interaction.NotesManagingUtilities::GetNotes(Melanchall.DryWetMidi.Core.MidiFile,Melanchall.DryWetMidi.Interaction.NoteDetectionSettings)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* NotesManagingUtilities_GetNotes_m6F200E408740F1FA4DDE160D81DA9F5CD5294DA8 (MidiFile_tAA982CB4F6D670B3B5AB422344082BCB8A4A5F84* ___0_file, NoteDetectionSettings_t75FE01B9786A80AA56E311C38C6685AC89F4950D* ___1_settings, const RuntimeMethod* method) ;
 // System.Void Lane::SetTimeStamps(Melanchall.DryWetMidi.Interaction.Note[])
@@ -4652,6 +4698,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MemoryStream__ctor_m662CA0D5A0004A2E3B475FE8DCD687B654870AA2 (MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_buffer, const RuntimeMethod* method) ;
 // Melanchall.DryWetMidi.Core.MidiFile Melanchall.DryWetMidi.Core.MidiFile::Read(System.IO.Stream,Melanchall.DryWetMidi.Core.ReadingSettings)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MidiFile_tAA982CB4F6D670B3B5AB422344082BCB8A4A5F84* MidiFile_Read_m573B9FDFC615FED73A00544C9A55E23ABB157659 (Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___0_stream, ReadingSettings_tF6FB07BE4370AC0C2C6558DE6E4212766ED2A53F* ___1_settings, const RuntimeMethod* method) ;
+// System.Void SongManager/<ReadFromAndroid>d__16::<>m__Finally1()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CReadFromAndroidU3Ed__16_U3CU3Em__Finally1_m7FCA51FB71D05939A053727365F54E7CE9763DC6 (U3CReadFromAndroidU3Ed__16_t67F40B7B965A59258AA8AB4C6032355C3F0702AC* __this, const RuntimeMethod* method) ;
+// System.Void SongManager/<ReadFromAndroid>d__16::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CReadFromAndroidU3Ed__16_System_IDisposable_Dispose_m0110212AD48E357DBFCAACF4D4434594C99DC015 (U3CReadFromAndroidU3Ed__16_t67F40B7B965A59258AA8AB4C6032355C3F0702AC* __this, const RuntimeMethod* method) ;
+// System.String System.IO.Path::Combine(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE (String_t* ___0_path1, String_t* ___1_path2, const RuntimeMethod* method) ;
+// System.String UnityEngine.Application::get_persistentDataPath()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_persistentDataPath_mC58BD3E1A20732E0A536491DBCAE6505B1624399 (const RuntimeMethod* method) ;
+// System.Void System.IO.File::WriteAllBytes(System.String,System.Byte[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void File_WriteAllBytes_mC491031DA14AA9B591F62D6AD0181D090E081077 (String_t* ___0_path, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_bytes, const RuntimeMethod* method) ;
+// System.Collections.IEnumerator SongManager::ReadMidiFileFromAndroid(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SongManager_ReadMidiFileFromAndroid_m8938C7F4E6E8512CEE8CB02A17269C3074EBEA79 (SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3* __this, String_t* ___0_filePath, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Networking.UnityWebRequest::set_url(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityWebRequest_set_url_m5C117F8E00BA03DDC9EBC859DCB31BB4B6E3ECFC (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+// UnityEngine.Networking.UnityWebRequest/Result UnityEngine.Networking.UnityWebRequest::get_result()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnityWebRequest_get_result_mEF83848C5FCFB5E307CE4B57E42BF02FC9AED449 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, const RuntimeMethod* method) ;
+// System.Void SongManager::GetDataFromMidi()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SongManager_GetDataFromMidi_mD408189890DEE65235775E407BEEDEDCE9DD9BCB (SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3* __this, const RuntimeMethod* method) ;
 // System.Void VolumeSaveController::LoadValues()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VolumeSaveController_LoadValues_mA44FACE96C6DF58799EB94E11F46E8C314CEC73E (VolumeSaveController_t3B46341649E06F4EF01B2BCF43ADA984BD5C8AC7* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.PlayerPrefs::SetFloat(System.String,System.Single)
@@ -7918,8 +7982,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SongManager_ReadFromFile_m6CEA2114484CDD
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral12EA0C6AE04150ED2C21A6D43AC4D0ECA9AE5C7B);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2746B283A9377664FAC642B633C6E630FD0DA207);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3C1A6E4CEFF65BE6A1D9E90EBE606845607965C1);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral86BBAACC00198DBB3046818AD3FC2AA10AE48DE1);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF5EDE39CDEAD277EE55B50BFF1C40D68F9A2F12F);
@@ -7931,7 +7993,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SongManager_ReadFromFile_m6CEA2114484CDD
 		L_0 = Application_get_isEditor_mEAC51E3ACE6DCE438087FB14BD75A3C219D354D0(NULL);
 		if (!L_0)
 		{
-			goto IL_0033;
+			goto IL_0032;
 		}
 	}
 	{
@@ -7947,40 +8009,78 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SongManager_ReadFromFile_m6CEA2114484CDD
 		L_4 = MidiFile_Read_m067EDA91ED1E76DEC56E44E80DDB9622256560E6(L_3, (ReadingSettings_tF6FB07BE4370AC0C2C6558DE6E4212766ED2A53F*)NULL, NULL);
 		((SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3_StaticFields*)il2cpp_codegen_static_fields_for(SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3_il2cpp_TypeInfo_var))->___midiFile_14 = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&((SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3_StaticFields*)il2cpp_codegen_static_fields_for(SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3_il2cpp_TypeInfo_var))->___midiFile_14), (void*)L_4);
-		goto IL_006b;
+		return;
 	}
 
-IL_0033:
+IL_0032:
 	{
 		// else if (Application.platform == RuntimePlatform.Android)
 		int32_t L_5;
 		L_5 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
 		if ((!(((uint32_t)L_5) == ((uint32_t)((int32_t)11)))))
 		{
-			goto IL_006b;
+			goto IL_0052;
 		}
 	}
 	{
 		// print("Running on Android");
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteral3C1A6E4CEFF65BE6A1D9E90EBE606845607965C1, NULL);
-		// midiFile = MidiFile.Read("jar:file://" + Application.streamingAssetsPath + "!assets/" + fileLocation);
-		String_t* L_6;
-		L_6 = Application_get_streamingAssetsPath_mB904BCD9A7A4F18A52C175DE4A81F5DC3010CDB5(NULL);
-		String_t* L_7 = __this->___fileLocation_10;
-		String_t* L_8;
-		L_8 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteral2746B283A9377664FAC642B633C6E630FD0DA207, L_6, _stringLiteral12EA0C6AE04150ED2C21A6D43AC4D0ECA9AE5C7B, L_7, NULL);
-		MidiFile_tAA982CB4F6D670B3B5AB422344082BCB8A4A5F84* L_9;
-		L_9 = MidiFile_Read_m067EDA91ED1E76DEC56E44E80DDB9622256560E6(L_8, (ReadingSettings_tF6FB07BE4370AC0C2C6558DE6E4212766ED2A53F*)NULL, NULL);
-		((SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3_StaticFields*)il2cpp_codegen_static_fields_for(SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3_il2cpp_TypeInfo_var))->___midiFile_14 = L_9;
-		Il2CppCodeGenWriteBarrier((void**)(&((SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3_StaticFields*)il2cpp_codegen_static_fields_for(SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3_il2cpp_TypeInfo_var))->___midiFile_14), (void*)L_9);
+		// StartCoroutine(ReadFromAndroid());
+		RuntimeObject* L_6;
+		L_6 = SongManager_ReadFromAndroid_m2301567B873A15C4C2B2A48BCAF02C5B1C0D56E4(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_7;
+		L_7 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_6, NULL);
 	}
 
-IL_006b:
+IL_0052:
 	{
-		// GetDataFromMidi();
-		SongManager_GetDataFromMidi_mD408189890DEE65235775E407BEEDEDCE9DD9BCB(__this, NULL);
 		// }
 		return;
+	}
+}
+// System.Collections.IEnumerator SongManager::ReadFromAndroid()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SongManager_ReadFromAndroid_m2301567B873A15C4C2B2A48BCAF02C5B1C0D56E4 (SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CReadFromAndroidU3Ed__16_t67F40B7B965A59258AA8AB4C6032355C3F0702AC_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CReadFromAndroidU3Ed__16_t67F40B7B965A59258AA8AB4C6032355C3F0702AC* L_0 = (U3CReadFromAndroidU3Ed__16_t67F40B7B965A59258AA8AB4C6032355C3F0702AC*)il2cpp_codegen_object_new(U3CReadFromAndroidU3Ed__16_t67F40B7B965A59258AA8AB4C6032355C3F0702AC_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		U3CReadFromAndroidU3Ed__16__ctor_mC3D83FA5316656638E0BFD7EF2160BFB28C5108A(L_0, 0, NULL);
+		U3CReadFromAndroidU3Ed__16_t67F40B7B965A59258AA8AB4C6032355C3F0702AC* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this_2 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_2), (void*)__this);
+		return L_1;
+	}
+}
+// System.Collections.IEnumerator SongManager::ReadMidiFileFromAndroid(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SongManager_ReadMidiFileFromAndroid_m8938C7F4E6E8512CEE8CB02A17269C3074EBEA79 (SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3* __this, String_t* ___0_filePath, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CReadMidiFileFromAndroidU3Ed__17_t5205E8DC1294060FF1F59D26D18023761A69A1AA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CReadMidiFileFromAndroidU3Ed__17_t5205E8DC1294060FF1F59D26D18023761A69A1AA* L_0 = (U3CReadMidiFileFromAndroidU3Ed__17_t5205E8DC1294060FF1F59D26D18023761A69A1AA*)il2cpp_codegen_object_new(U3CReadMidiFileFromAndroidU3Ed__17_t5205E8DC1294060FF1F59D26D18023761A69A1AA_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		U3CReadMidiFileFromAndroidU3Ed__17__ctor_m48EBEFBFDDA6E204511457957D4BF3D4B3CACD1B(L_0, 0, NULL);
+		U3CReadMidiFileFromAndroidU3Ed__17_t5205E8DC1294060FF1F59D26D18023761A69A1AA* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this_3 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_3), (void*)__this);
+		U3CReadMidiFileFromAndroidU3Ed__17_t5205E8DC1294060FF1F59D26D18023761A69A1AA* L_2 = L_1;
+		String_t* L_3 = ___0_filePath;
+		NullCheck(L_2);
+		L_2->___filePath_2 = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&L_2->___filePath_2), (void*)L_3);
+		return L_2;
 	}
 }
 // System.Void SongManager::GetDataFromMidi()
@@ -8450,6 +8550,526 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CReadFromWebsiteU3Ed__14_System_Collec
 }
 // System.Object SongManager/<ReadFromWebsite>d__14::System.Collections.IEnumerator.get_Current()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CReadFromWebsiteU3Ed__14_System_Collections_IEnumerator_get_Current_mBDF174C9FA96C904839F598FE24F641150DBE713 (U3CReadFromWebsiteU3Ed__14_t4FC8A1D0684115D48ACE52B842DE5624AD9E1A8C* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void SongManager/<ReadFromAndroid>d__16::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CReadFromAndroidU3Ed__16__ctor_mC3D83FA5316656638E0BFD7EF2160BFB28C5108A (U3CReadFromAndroidU3Ed__16_t67F40B7B965A59258AA8AB4C6032355C3F0702AC* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state_0 = L_0;
+		return;
+	}
+}
+// System.Void SongManager/<ReadFromAndroid>d__16::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CReadFromAndroidU3Ed__16_System_IDisposable_Dispose_m0110212AD48E357DBFCAACF4D4434594C99DC015 (U3CReadFromAndroidU3Ed__16_t67F40B7B965A59258AA8AB4C6032355C3F0702AC* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if ((((int32_t)L_1) == ((int32_t)((int32_t)-3))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		if ((!(((uint32_t)L_2) == ((uint32_t)1))))
+		{
+			goto IL_001a;
+		}
+	}
+
+IL_0010:
+	{
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0013:
+			{// begin finally (depth: 1)
+				U3CReadFromAndroidU3Ed__16_U3CU3Em__Finally1_m7FCA51FB71D05939A053727365F54E7CE9763DC6(__this, NULL);
+				return;
+			}// end finally (depth: 1)
+		});
+		try
+		{// begin try (depth: 1)
+			goto IL_001a;
+		}// end try (depth: 1)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_001a:
+	{
+		return;
+	}
+}
+// System.Boolean SongManager/<ReadFromAndroid>d__16::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CReadFromAndroidU3Ed__16_MoveNext_mB5E3B866CB9AC8820E73482F177D191E459414CC (U3CReadFromAndroidU3Ed__16_t67F40B7B965A59258AA8AB4C6032355C3F0702AC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	int32_t V_1 = 0;
+	SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3* V_2 = NULL;
+	String_t* V_3 = NULL;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_4 = NULL;
+	String_t* V_5 = NULL;
+	{
+		auto __finallyBlock = il2cpp::utils::Fault([&]
+		{
+
+FAULT_00e8:
+			{// begin fault (depth: 1)
+				U3CReadFromAndroidU3Ed__16_System_IDisposable_Dispose_m0110212AD48E357DBFCAACF4D4434594C99DC015(__this, NULL);
+				return;
+			}// end fault
+		});
+		try
+		{// begin try (depth: 1)
+			{
+				int32_t L_0 = __this->___U3CU3E1__state_0;
+				V_1 = L_0;
+				SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3* L_1 = __this->___U3CU3E4__this_2;
+				V_2 = L_1;
+				int32_t L_2 = V_1;
+				if (!L_2)
+				{
+					goto IL_001c_1;
+				}
+			}
+			{
+				int32_t L_3 = V_1;
+				if ((((int32_t)L_3) == ((int32_t)1)))
+				{
+					goto IL_0067_1;
+				}
+			}
+			{
+				V_0 = (bool)0;
+				goto IL_00ef;
+			}
+
+IL_001c_1:
+			{
+				__this->___U3CU3E1__state_0 = (-1);
+				// string filePath = Path.Combine(Application.streamingAssetsPath, fileLocation);
+				String_t* L_4;
+				L_4 = Application_get_streamingAssetsPath_mB904BCD9A7A4F18A52C175DE4A81F5DC3010CDB5(NULL);
+				SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3* L_5 = V_2;
+				NullCheck(L_5);
+				String_t* L_6 = L_5->___fileLocation_10;
+				il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
+				String_t* L_7;
+				L_7 = Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE(L_4, L_6, NULL);
+				V_3 = L_7;
+				// using (UnityWebRequest www = UnityWebRequest.Get(filePath))
+				String_t* L_8 = V_3;
+				UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_9;
+				L_9 = UnityWebRequest_Get_m1A332EE069BB5052368307F254A5A7627BB5FD86(L_8, NULL);
+				__this->___U3CwwwU3E5__2_3 = L_9;
+				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CwwwU3E5__2_3), (void*)L_9);
+				__this->___U3CU3E1__state_0 = ((int32_t)-3);
+				// yield return www.SendWebRequest();
+				UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_10 = __this->___U3CwwwU3E5__2_3;
+				NullCheck(L_10);
+				UnityWebRequestAsyncOperation_t14BE94558FF3A2CFC2EFBE2511A3A88252042B8C* L_11;
+				L_11 = UnityWebRequest_SendWebRequest_mA3CD13983BAA5074A0640EDD661B1E46E6DB6C13(L_10, NULL);
+				__this->___U3CU3E2__current_1 = L_11;
+				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_11);
+				__this->___U3CU3E1__state_0 = 1;
+				V_0 = (bool)1;
+				goto IL_00ef;
+			}
+
+IL_0067_1:
+			{
+				__this->___U3CU3E1__state_0 = ((int32_t)-3);
+				// if (www.isNetworkError || www.isHttpError)
+				UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_12 = __this->___U3CwwwU3E5__2_3;
+				NullCheck(L_12);
+				bool L_13;
+				L_13 = UnityWebRequest_get_isNetworkError_m036684411466688E71E67CDD3703BAC9035A56F0(L_12, NULL);
+				if (L_13)
+				{
+					goto IL_0089_1;
+				}
+			}
+			{
+				UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_14 = __this->___U3CwwwU3E5__2_3;
+				NullCheck(L_14);
+				bool L_15;
+				L_15 = UnityWebRequest_get_isHttpError_m945BA480A179E05CC9659846414D9521ED648ED5(L_14, NULL);
+				if (!L_15)
+				{
+					goto IL_009b_1;
+				}
+			}
+
+IL_0089_1:
+			{
+				// Debug.LogError(www.error);
+				UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_16 = __this->___U3CwwwU3E5__2_3;
+				NullCheck(L_16);
+				String_t* L_17;
+				L_17 = UnityWebRequest_get_error_m20A5D813ED59118B7AA1D1E2EB5250178B1F5B6F(L_16, NULL);
+				il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+				Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_17, NULL);
+				goto IL_00d7_1;
+			}
+
+IL_009b_1:
+			{
+				// byte[] results = www.downloadHandler.data;
+				UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_18 = __this->___U3CwwwU3E5__2_3;
+				NullCheck(L_18);
+				DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB* L_19;
+				L_19 = UnityWebRequest_get_downloadHandler_m1AA91B23D9D594A4F4FE2975FC356C508528F1D5(L_18, NULL);
+				NullCheck(L_19);
+				ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_20;
+				L_20 = DownloadHandler_get_data_m1DC9B4514B12939B090028BF28C6BEF21DE9B6F3(L_19, NULL);
+				V_4 = L_20;
+				// string tempPath = Path.Combine(Application.persistentDataPath, fileLocation);
+				String_t* L_21;
+				L_21 = Application_get_persistentDataPath_mC58BD3E1A20732E0A536491DBCAE6505B1624399(NULL);
+				SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3* L_22 = V_2;
+				NullCheck(L_22);
+				String_t* L_23 = L_22->___fileLocation_10;
+				il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
+				String_t* L_24;
+				L_24 = Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE(L_21, L_23, NULL);
+				V_5 = L_24;
+				// File.WriteAllBytes(tempPath, results);
+				String_t* L_25 = V_5;
+				ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_26 = V_4;
+				File_WriteAllBytes_mC491031DA14AA9B591F62D6AD0181D090E081077(L_25, L_26, NULL);
+				// StartCoroutine(ReadMidiFileFromAndroid(tempPath));
+				SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3* L_27 = V_2;
+				SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3* L_28 = V_2;
+				String_t* L_29 = V_5;
+				NullCheck(L_28);
+				RuntimeObject* L_30;
+				L_30 = SongManager_ReadMidiFileFromAndroid_m8938C7F4E6E8512CEE8CB02A17269C3074EBEA79(L_28, L_29, NULL);
+				NullCheck(L_27);
+				Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_31;
+				L_31 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(L_27, L_30, NULL);
+			}
+
+IL_00d7_1:
+			{
+				// }
+				U3CReadFromAndroidU3Ed__16_U3CU3Em__Finally1_m7FCA51FB71D05939A053727365F54E7CE9763DC6(__this, NULL);
+				__this->___U3CwwwU3E5__2_3 = (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F*)NULL;
+				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CwwwU3E5__2_3), (void*)(UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F*)NULL);
+				// }
+				V_0 = (bool)0;
+				goto IL_00ef;
+			}
+		}// end try (depth: 1)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_00ef:
+	{
+		bool L_32 = V_0;
+		return L_32;
+	}
+}
+// System.Void SongManager/<ReadFromAndroid>d__16::<>m__Finally1()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CReadFromAndroidU3Ed__16_U3CU3Em__Finally1_m7FCA51FB71D05939A053727365F54E7CE9763DC6 (U3CReadFromAndroidU3Ed__16_t67F40B7B965A59258AA8AB4C6032355C3F0702AC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_0 = __this->___U3CwwwU3E5__2_3;
+		if (!L_0)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_1 = __this->___U3CwwwU3E5__2_3;
+		NullCheck(L_1);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_1);
+	}
+
+IL_001a:
+	{
+		return;
+	}
+}
+// System.Object SongManager/<ReadFromAndroid>d__16::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CReadFromAndroidU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7CBE7BD2059FF570072269C6BC1D127059A0534C (U3CReadFromAndroidU3Ed__16_t67F40B7B965A59258AA8AB4C6032355C3F0702AC* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+// System.Void SongManager/<ReadFromAndroid>d__16::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CReadFromAndroidU3Ed__16_System_Collections_IEnumerator_Reset_m5E88A45F41FA0D6CC9095BDE6544B96EC8626AF9 (U3CReadFromAndroidU3Ed__16_t67F40B7B965A59258AA8AB4C6032355C3F0702AC* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NullCheck(L_0);
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CReadFromAndroidU3Ed__16_System_Collections_IEnumerator_Reset_m5E88A45F41FA0D6CC9095BDE6544B96EC8626AF9_RuntimeMethod_var)));
+	}
+}
+// System.Object SongManager/<ReadFromAndroid>d__16::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CReadFromAndroidU3Ed__16_System_Collections_IEnumerator_get_Current_m0401FEE36AC159D8E88E5581929DA7A673E333BF (U3CReadFromAndroidU3Ed__16_t67F40B7B965A59258AA8AB4C6032355C3F0702AC* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void SongManager/<ReadMidiFileFromAndroid>d__17::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CReadMidiFileFromAndroidU3Ed__17__ctor_m48EBEFBFDDA6E204511457957D4BF3D4B3CACD1B (U3CReadMidiFileFromAndroidU3Ed__17_t5205E8DC1294060FF1F59D26D18023761A69A1AA* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state_0 = L_0;
+		return;
+	}
+}
+// System.Void SongManager/<ReadMidiFileFromAndroid>d__17::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CReadMidiFileFromAndroidU3Ed__17_System_IDisposable_Dispose_mD2D1CECA18740F65210E657B1232B7BD14933F5B (U3CReadMidiFileFromAndroidU3Ed__17_t5205E8DC1294060FF1F59D26D18023761A69A1AA* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// System.Boolean SongManager/<ReadMidiFileFromAndroid>d__17::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CReadMidiFileFromAndroidU3Ed__17_MoveNext_m1C1D65E144E517E5167B19A802890500E78FC67D (U3CReadMidiFileFromAndroidU3Ed__17_t5205E8DC1294060FF1F59D26D18023761A69A1AA* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral218F5A08519088A96BE3C1074984C53EA49F1CCA);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3* V_1 = NULL;
+	MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* V_2 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3* L_1 = __this->___U3CU3E4__this_3;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_0064;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		// UnityWebRequest reader = UnityWebRequest.Get(filePath);
+		String_t* L_4 = __this->___filePath_2;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_5;
+		L_5 = UnityWebRequest_Get_m1A332EE069BB5052368307F254A5A7627BB5FD86(L_4, NULL);
+		__this->___U3CreaderU3E5__2_4 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CreaderU3E5__2_4), (void*)L_5);
+		// reader.url = "file://" + filePath;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_6 = __this->___U3CreaderU3E5__2_4;
+		String_t* L_7 = __this->___filePath_2;
+		String_t* L_8;
+		L_8 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral218F5A08519088A96BE3C1074984C53EA49F1CCA, L_7, NULL);
+		NullCheck(L_6);
+		UnityWebRequest_set_url_m5C117F8E00BA03DDC9EBC859DCB31BB4B6E3ECFC(L_6, L_8, NULL);
+		// yield return reader.SendWebRequest();
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_9 = __this->___U3CreaderU3E5__2_4;
+		NullCheck(L_9);
+		UnityWebRequestAsyncOperation_t14BE94558FF3A2CFC2EFBE2511A3A88252042B8C* L_10;
+		L_10 = UnityWebRequest_SendWebRequest_mA3CD13983BAA5074A0640EDD661B1E46E6DB6C13(L_9, NULL);
+		__this->___U3CU3E2__current_1 = L_10;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_10);
+		__this->___U3CU3E1__state_0 = 1;
+		return (bool)1;
+	}
+
+IL_0064:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		// if (reader.result == UnityWebRequest.Result.ConnectionError || reader.result == UnityWebRequest.Result.ProtocolError)
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_11 = __this->___U3CreaderU3E5__2_4;
+		NullCheck(L_11);
+		int32_t L_12;
+		L_12 = UnityWebRequest_get_result_mEF83848C5FCFB5E307CE4B57E42BF02FC9AED449(L_11, NULL);
+		if ((((int32_t)L_12) == ((int32_t)2)))
+		{
+			goto IL_0087;
+		}
+	}
+	{
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_13 = __this->___U3CreaderU3E5__2_4;
+		NullCheck(L_13);
+		int32_t L_14;
+		L_14 = UnityWebRequest_get_result_mEF83848C5FCFB5E307CE4B57E42BF02FC9AED449(L_13, NULL);
+		if ((!(((uint32_t)L_14) == ((uint32_t)3))))
+		{
+			goto IL_0099;
+		}
+	}
+
+IL_0087:
+	{
+		// Debug.LogError(reader.error);
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_15 = __this->___U3CreaderU3E5__2_4;
+		NullCheck(L_15);
+		String_t* L_16;
+		L_16 = UnityWebRequest_get_error_m20A5D813ED59118B7AA1D1E2EB5250178B1F5B6F(L_15, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_16, NULL);
+		goto IL_00cd;
+	}
+
+IL_0099:
+	{
+		// byte[] results = reader.downloadHandler.data;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_17 = __this->___U3CreaderU3E5__2_4;
+		NullCheck(L_17);
+		DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB* L_18;
+		L_18 = UnityWebRequest_get_downloadHandler_m1AA91B23D9D594A4F4FE2975FC356C508528F1D5(L_17, NULL);
+		NullCheck(L_18);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_19;
+		L_19 = DownloadHandler_get_data_m1DC9B4514B12939B090028BF28C6BEF21DE9B6F3(L_18, NULL);
+		// using (var stream = new MemoryStream(results))
+		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_20 = (MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2*)il2cpp_codegen_object_new(MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2_il2cpp_TypeInfo_var);
+		NullCheck(L_20);
+		MemoryStream__ctor_m662CA0D5A0004A2E3B475FE8DCD687B654870AA2(L_20, L_19, NULL);
+		V_2 = L_20;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_00c3:
+			{// begin finally (depth: 1)
+				{
+					MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_21 = V_2;
+					if (!L_21)
+					{
+						goto IL_00cc;
+					}
+				}
+				{
+					MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_22 = V_2;
+					NullCheck(L_22);
+					InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_22);
+				}
+
+IL_00cc:
+				{
+					return;
+				}
+			}// end finally (depth: 1)
+		});
+		try
+		{// begin try (depth: 1)
+			// midiFile = MidiFile.Read(stream);
+			MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_23 = V_2;
+			MidiFile_tAA982CB4F6D670B3B5AB422344082BCB8A4A5F84* L_24;
+			L_24 = MidiFile_Read_m573B9FDFC615FED73A00544C9A55E23ABB157659(L_23, (ReadingSettings_tF6FB07BE4370AC0C2C6558DE6E4212766ED2A53F*)NULL, NULL);
+			((SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3_StaticFields*)il2cpp_codegen_static_fields_for(SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3_il2cpp_TypeInfo_var))->___midiFile_14 = L_24;
+			Il2CppCodeGenWriteBarrier((void**)(&((SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3_StaticFields*)il2cpp_codegen_static_fields_for(SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3_il2cpp_TypeInfo_var))->___midiFile_14), (void*)L_24);
+			// GetDataFromMidi();
+			SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3* L_25 = V_1;
+			NullCheck(L_25);
+			SongManager_GetDataFromMidi_mD408189890DEE65235775E407BEEDEDCE9DD9BCB(L_25, NULL);
+			// }
+			goto IL_00cd;
+		}// end try (depth: 1)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_00cd:
+	{
+		// }
+		return (bool)0;
+	}
+}
+// System.Object SongManager/<ReadMidiFileFromAndroid>d__17::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CReadMidiFileFromAndroidU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m6BAD5633A0B62CB67DA08408716F5B7A0AE96EEF (U3CReadMidiFileFromAndroidU3Ed__17_t5205E8DC1294060FF1F59D26D18023761A69A1AA* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+// System.Void SongManager/<ReadMidiFileFromAndroid>d__17::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CReadMidiFileFromAndroidU3Ed__17_System_Collections_IEnumerator_Reset_mCAFF7261A97AB49B2A5DFC3A9B1130AAF7882BEE (U3CReadMidiFileFromAndroidU3Ed__17_t5205E8DC1294060FF1F59D26D18023761A69A1AA* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NullCheck(L_0);
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CReadMidiFileFromAndroidU3Ed__17_System_Collections_IEnumerator_Reset_mCAFF7261A97AB49B2A5DFC3A9B1130AAF7882BEE_RuntimeMethod_var)));
+	}
+}
+// System.Object SongManager/<ReadMidiFileFromAndroid>d__17::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CReadMidiFileFromAndroidU3Ed__17_System_Collections_IEnumerator_get_Current_m4DA709D233E0D0FFDED77530371748D2E7EBEC4F (U3CReadMidiFileFromAndroidU3Ed__17_t5205E8DC1294060FF1F59D26D18023761A69A1AA* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;

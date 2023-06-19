@@ -77,12 +77,54 @@ public class SongManager : MonoBehaviour
         else if (Application.platform == RuntimePlatform.Android)
         {
             print("Running on Android");
-            //string filePath = Path.Combine ("jar:file://" + Application.dataPath + "!assets/", fileLocation);
-            midiFile = MidiFile.Read("jar:file://" + Application.streamingAssetsPath + "!assets/" + fileLocation);
+            StartCoroutine(ReadFromAndroid());
         }
-        
-        GetDataFromMidi();
     }
+
+    private IEnumerator ReadFromAndroid()
+    {
+        string filePath = Path.Combine(Application.streamingAssetsPath, fileLocation);
+
+        using (UnityWebRequest www = UnityWebRequest.Get(filePath))
+        {
+            yield return www.SendWebRequest();
+
+            if (www.isNetworkError || www.isHttpError)
+            {
+                Debug.LogError(www.error);
+            }
+            else
+            {
+                byte[] results = www.downloadHandler.data;
+                string tempPath = Path.Combine(Application.persistentDataPath, fileLocation);
+                File.WriteAllBytes(tempPath, results);
+                StartCoroutine(ReadMidiFileFromAndroid(tempPath));
+            }
+        }
+    }
+
+    private IEnumerator ReadMidiFileFromAndroid(string filePath)
+    {
+        UnityWebRequest reader = UnityWebRequest.Get(filePath);
+        reader.url = "file://" + filePath;
+
+        yield return reader.SendWebRequest();
+
+        if (reader.result == UnityWebRequest.Result.ConnectionError || reader.result == UnityWebRequest.Result.ProtocolError)
+        {
+            Debug.LogError(reader.error);
+        }
+        else
+        {
+            byte[] results = reader.downloadHandler.data;
+            using (var stream = new MemoryStream(results))
+            {
+                midiFile = MidiFile.Read(stream);
+                GetDataFromMidi();
+            }
+        }
+    }
+
 
     public void GetDataFromMidi()
     {

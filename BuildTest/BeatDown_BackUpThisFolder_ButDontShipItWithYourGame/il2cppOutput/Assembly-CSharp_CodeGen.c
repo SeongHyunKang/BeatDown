@@ -204,49 +204,79 @@ extern void SongManager_Start_m871680966C4A0B543EAFC8F078926DAF6B67A5BD (void);
 extern void SongManager_ReadFromWebsite_m4356BBCBDD155C46FE7347B12F7470B8C8105981 (void);
 // 0x00000060 System.Void SongManager::ReadFromFile()
 extern void SongManager_ReadFromFile_m6CEA2114484CDD3290DB43DE6BA116697898364F (void);
-// 0x00000061 System.Void SongManager::GetDataFromMidi()
+// 0x00000061 System.Collections.IEnumerator SongManager::ReadFromAndroid()
+extern void SongManager_ReadFromAndroid_m2301567B873A15C4C2B2A48BCAF02C5B1C0D56E4 (void);
+// 0x00000062 System.Collections.IEnumerator SongManager::ReadMidiFileFromAndroid(System.String)
+extern void SongManager_ReadMidiFileFromAndroid_m8938C7F4E6E8512CEE8CB02A17269C3074EBEA79 (void);
+// 0x00000063 System.Void SongManager::GetDataFromMidi()
 extern void SongManager_GetDataFromMidi_mD408189890DEE65235775E407BEEDEDCE9DD9BCB (void);
-// 0x00000062 System.Void SongManager::StartSong()
+// 0x00000064 System.Void SongManager::StartSong()
 extern void SongManager_StartSong_m01F6A01CAFED8B4BF26A74FE92EF126F37FFB1BC (void);
-// 0x00000063 System.Double SongManager::GetAudioSourceTime()
+// 0x00000065 System.Double SongManager::GetAudioSourceTime()
 extern void SongManager_GetAudioSourceTime_m423A60625049561F2D001763A65AF47BC4C5A0D1 (void);
-// 0x00000064 System.Void SongManager::Update()
+// 0x00000066 System.Void SongManager::Update()
 extern void SongManager_Update_m795DE6BCA1C3627589034C29A19739AF597DF3B6 (void);
-// 0x00000065 System.Void SongManager::.ctor()
+// 0x00000067 System.Void SongManager::.ctor()
 extern void SongManager__ctor_m3B0BA690D52A8867366D0AAD993AB2AB17598F77 (void);
-// 0x00000066 System.Void SongManager/<ReadFromWebsite>d__14::.ctor(System.Int32)
+// 0x00000068 System.Void SongManager/<ReadFromWebsite>d__14::.ctor(System.Int32)
 extern void U3CReadFromWebsiteU3Ed__14__ctor_m27853A74CE538FE059BA3362D84225CA901664AB (void);
-// 0x00000067 System.Void SongManager/<ReadFromWebsite>d__14::System.IDisposable.Dispose()
+// 0x00000069 System.Void SongManager/<ReadFromWebsite>d__14::System.IDisposable.Dispose()
 extern void U3CReadFromWebsiteU3Ed__14_System_IDisposable_Dispose_m8EF86B8D71C22C1CE640B2F2AFA997E1CB2C765A (void);
-// 0x00000068 System.Boolean SongManager/<ReadFromWebsite>d__14::MoveNext()
+// 0x0000006A System.Boolean SongManager/<ReadFromWebsite>d__14::MoveNext()
 extern void U3CReadFromWebsiteU3Ed__14_MoveNext_mDA0176F83146BAC514A9A0C25E1BC5D4D2FCA128 (void);
-// 0x00000069 System.Void SongManager/<ReadFromWebsite>d__14::<>m__Finally1()
+// 0x0000006B System.Void SongManager/<ReadFromWebsite>d__14::<>m__Finally1()
 extern void U3CReadFromWebsiteU3Ed__14_U3CU3Em__Finally1_m44A6D77E4BB87E35BCB1C157E41CFFCE4CE6D7C8 (void);
-// 0x0000006A System.Object SongManager/<ReadFromWebsite>d__14::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x0000006C System.Object SongManager/<ReadFromWebsite>d__14::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CReadFromWebsiteU3Ed__14_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB93B688BC9EDA59B2FE572BDA59F74E43BA12D7E (void);
-// 0x0000006B System.Void SongManager/<ReadFromWebsite>d__14::System.Collections.IEnumerator.Reset()
+// 0x0000006D System.Void SongManager/<ReadFromWebsite>d__14::System.Collections.IEnumerator.Reset()
 extern void U3CReadFromWebsiteU3Ed__14_System_Collections_IEnumerator_Reset_m1502770C068C8883251FB171A4DEB516C9E19C7B (void);
-// 0x0000006C System.Object SongManager/<ReadFromWebsite>d__14::System.Collections.IEnumerator.get_Current()
+// 0x0000006E System.Object SongManager/<ReadFromWebsite>d__14::System.Collections.IEnumerator.get_Current()
 extern void U3CReadFromWebsiteU3Ed__14_System_Collections_IEnumerator_get_Current_mBDF174C9FA96C904839F598FE24F641150DBE713 (void);
-// 0x0000006D System.Void SwipeMenu::NotFoundScene()
+// 0x0000006F System.Void SongManager/<ReadFromAndroid>d__16::.ctor(System.Int32)
+extern void U3CReadFromAndroidU3Ed__16__ctor_mC3D83FA5316656638E0BFD7EF2160BFB28C5108A (void);
+// 0x00000070 System.Void SongManager/<ReadFromAndroid>d__16::System.IDisposable.Dispose()
+extern void U3CReadFromAndroidU3Ed__16_System_IDisposable_Dispose_m0110212AD48E357DBFCAACF4D4434594C99DC015 (void);
+// 0x00000071 System.Boolean SongManager/<ReadFromAndroid>d__16::MoveNext()
+extern void U3CReadFromAndroidU3Ed__16_MoveNext_mB5E3B866CB9AC8820E73482F177D191E459414CC (void);
+// 0x00000072 System.Void SongManager/<ReadFromAndroid>d__16::<>m__Finally1()
+extern void U3CReadFromAndroidU3Ed__16_U3CU3Em__Finally1_m7FCA51FB71D05939A053727365F54E7CE9763DC6 (void);
+// 0x00000073 System.Object SongManager/<ReadFromAndroid>d__16::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CReadFromAndroidU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7CBE7BD2059FF570072269C6BC1D127059A0534C (void);
+// 0x00000074 System.Void SongManager/<ReadFromAndroid>d__16::System.Collections.IEnumerator.Reset()
+extern void U3CReadFromAndroidU3Ed__16_System_Collections_IEnumerator_Reset_m5E88A45F41FA0D6CC9095BDE6544B96EC8626AF9 (void);
+// 0x00000075 System.Object SongManager/<ReadFromAndroid>d__16::System.Collections.IEnumerator.get_Current()
+extern void U3CReadFromAndroidU3Ed__16_System_Collections_IEnumerator_get_Current_m0401FEE36AC159D8E88E5581929DA7A673E333BF (void);
+// 0x00000076 System.Void SongManager/<ReadMidiFileFromAndroid>d__17::.ctor(System.Int32)
+extern void U3CReadMidiFileFromAndroidU3Ed__17__ctor_m48EBEFBFDDA6E204511457957D4BF3D4B3CACD1B (void);
+// 0x00000077 System.Void SongManager/<ReadMidiFileFromAndroid>d__17::System.IDisposable.Dispose()
+extern void U3CReadMidiFileFromAndroidU3Ed__17_System_IDisposable_Dispose_mD2D1CECA18740F65210E657B1232B7BD14933F5B (void);
+// 0x00000078 System.Boolean SongManager/<ReadMidiFileFromAndroid>d__17::MoveNext()
+extern void U3CReadMidiFileFromAndroidU3Ed__17_MoveNext_m1C1D65E144E517E5167B19A802890500E78FC67D (void);
+// 0x00000079 System.Object SongManager/<ReadMidiFileFromAndroid>d__17::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CReadMidiFileFromAndroidU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m6BAD5633A0B62CB67DA08408716F5B7A0AE96EEF (void);
+// 0x0000007A System.Void SongManager/<ReadMidiFileFromAndroid>d__17::System.Collections.IEnumerator.Reset()
+extern void U3CReadMidiFileFromAndroidU3Ed__17_System_Collections_IEnumerator_Reset_mCAFF7261A97AB49B2A5DFC3A9B1130AAF7882BEE (void);
+// 0x0000007B System.Object SongManager/<ReadMidiFileFromAndroid>d__17::System.Collections.IEnumerator.get_Current()
+extern void U3CReadMidiFileFromAndroidU3Ed__17_System_Collections_IEnumerator_get_Current_m4DA709D233E0D0FFDED77530371748D2E7EBEC4F (void);
+// 0x0000007C System.Void SwipeMenu::NotFoundScene()
 extern void SwipeMenu_NotFoundScene_m4F658194C61AE05206C6013A1978DA0155AC5A14 (void);
-// 0x0000006E System.Void SwipeMenu::ForbiddenScene()
+// 0x0000007D System.Void SwipeMenu::ForbiddenScene()
 extern void SwipeMenu_ForbiddenScene_mEA56E82DFBC0117FBFE1D34FA985890245A88E45 (void);
-// 0x0000006F System.Void SwipeMenu::BadRequestScene()
+// 0x0000007E System.Void SwipeMenu::BadRequestScene()
 extern void SwipeMenu_BadRequestScene_m4E76CC3664E2E1C36F0A5324DA38E94E8F54AC1C (void);
-// 0x00000070 System.Void SwipeMenu::.ctor()
+// 0x0000007F System.Void SwipeMenu::.ctor()
 extern void SwipeMenu__ctor_mF71FD4B4351FB13F62DE12BC7C9C7F164D7B8DD2 (void);
-// 0x00000071 System.Void VolumeSaveController::Start()
+// 0x00000080 System.Void VolumeSaveController::Start()
 extern void VolumeSaveController_Start_m4AD1CFD03B4982A81A67C36CD05DF70046FFB845 (void);
-// 0x00000072 System.Void VolumeSaveController::VolumeSlider(System.Single)
+// 0x00000081 System.Void VolumeSaveController::VolumeSlider(System.Single)
 extern void VolumeSaveController_VolumeSlider_mED0310A541579A92F8CBE475D6A9CCCCAB1F683D (void);
-// 0x00000073 System.Void VolumeSaveController::SaveVolumeButton()
+// 0x00000082 System.Void VolumeSaveController::SaveVolumeButton()
 extern void VolumeSaveController_SaveVolumeButton_m9A311ECA64EF2313833D1A30FE78E303B89D6E3E (void);
-// 0x00000074 System.Void VolumeSaveController::LoadValues()
+// 0x00000083 System.Void VolumeSaveController::LoadValues()
 extern void VolumeSaveController_LoadValues_mA44FACE96C6DF58799EB94E11F46E8C314CEC73E (void);
-// 0x00000075 System.Void VolumeSaveController::.ctor()
+// 0x00000084 System.Void VolumeSaveController::.ctor()
 extern void VolumeSaveController__ctor_m7B278CFA3AD66B1891D11E9BDC53E33E350BA02C (void);
-static Il2CppMethodPointer s_methodPointers[117] = 
+static Il2CppMethodPointer s_methodPointers[132] = 
 {
 	BackgroundLoop_Awake_m655D177F1A4D63D62CFBFEC88802664EEDFA16F4,
 	BackgroundLoop_Update_m32927DA0A3295DC46D19EDD36D40AEBE193F5C5C,
@@ -344,6 +374,8 @@ static Il2CppMethodPointer s_methodPointers[117] =
 	SongManager_Start_m871680966C4A0B543EAFC8F078926DAF6B67A5BD,
 	SongManager_ReadFromWebsite_m4356BBCBDD155C46FE7347B12F7470B8C8105981,
 	SongManager_ReadFromFile_m6CEA2114484CDD3290DB43DE6BA116697898364F,
+	SongManager_ReadFromAndroid_m2301567B873A15C4C2B2A48BCAF02C5B1C0D56E4,
+	SongManager_ReadMidiFileFromAndroid_m8938C7F4E6E8512CEE8CB02A17269C3074EBEA79,
 	SongManager_GetDataFromMidi_mD408189890DEE65235775E407BEEDEDCE9DD9BCB,
 	SongManager_StartSong_m01F6A01CAFED8B4BF26A74FE92EF126F37FFB1BC,
 	SongManager_GetAudioSourceTime_m423A60625049561F2D001763A65AF47BC4C5A0D1,
@@ -356,6 +388,19 @@ static Il2CppMethodPointer s_methodPointers[117] =
 	U3CReadFromWebsiteU3Ed__14_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB93B688BC9EDA59B2FE572BDA59F74E43BA12D7E,
 	U3CReadFromWebsiteU3Ed__14_System_Collections_IEnumerator_Reset_m1502770C068C8883251FB171A4DEB516C9E19C7B,
 	U3CReadFromWebsiteU3Ed__14_System_Collections_IEnumerator_get_Current_mBDF174C9FA96C904839F598FE24F641150DBE713,
+	U3CReadFromAndroidU3Ed__16__ctor_mC3D83FA5316656638E0BFD7EF2160BFB28C5108A,
+	U3CReadFromAndroidU3Ed__16_System_IDisposable_Dispose_m0110212AD48E357DBFCAACF4D4434594C99DC015,
+	U3CReadFromAndroidU3Ed__16_MoveNext_mB5E3B866CB9AC8820E73482F177D191E459414CC,
+	U3CReadFromAndroidU3Ed__16_U3CU3Em__Finally1_m7FCA51FB71D05939A053727365F54E7CE9763DC6,
+	U3CReadFromAndroidU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7CBE7BD2059FF570072269C6BC1D127059A0534C,
+	U3CReadFromAndroidU3Ed__16_System_Collections_IEnumerator_Reset_m5E88A45F41FA0D6CC9095BDE6544B96EC8626AF9,
+	U3CReadFromAndroidU3Ed__16_System_Collections_IEnumerator_get_Current_m0401FEE36AC159D8E88E5581929DA7A673E333BF,
+	U3CReadMidiFileFromAndroidU3Ed__17__ctor_m48EBEFBFDDA6E204511457957D4BF3D4B3CACD1B,
+	U3CReadMidiFileFromAndroidU3Ed__17_System_IDisposable_Dispose_mD2D1CECA18740F65210E657B1232B7BD14933F5B,
+	U3CReadMidiFileFromAndroidU3Ed__17_MoveNext_m1C1D65E144E517E5167B19A802890500E78FC67D,
+	U3CReadMidiFileFromAndroidU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m6BAD5633A0B62CB67DA08408716F5B7A0AE96EEF,
+	U3CReadMidiFileFromAndroidU3Ed__17_System_Collections_IEnumerator_Reset_mCAFF7261A97AB49B2A5DFC3A9B1130AAF7882BEE,
+	U3CReadMidiFileFromAndroidU3Ed__17_System_Collections_IEnumerator_get_Current_m4DA709D233E0D0FFDED77530371748D2E7EBEC4F,
 	SwipeMenu_NotFoundScene_m4F658194C61AE05206C6013A1978DA0155AC5A14,
 	SwipeMenu_ForbiddenScene_mEA56E82DFBC0117FBFE1D34FA985890245A88E45,
 	SwipeMenu_BadRequestScene_m4E76CC3664E2E1C36F0A5324DA38E94E8F54AC1C,
@@ -366,7 +411,7 @@ static Il2CppMethodPointer s_methodPointers[117] =
 	VolumeSaveController_LoadValues_mA44FACE96C6DF58799EB94E11F46E8C314CEC73E,
 	VolumeSaveController__ctor_m7B278CFA3AD66B1891D11E9BDC53E33E350BA02C,
 };
-static const int32_t s_InvokerIndices[117] = 
+static const int32_t s_InvokerIndices[132] = 
 {
 	3967,
 	3967,
@@ -464,6 +509,8 @@ static const int32_t s_InvokerIndices[117] =
 	3967,
 	3873,
 	3967,
+	3873,
+	2867,
 	3967,
 	3967,
 	5965,
@@ -473,6 +520,19 @@ static const int32_t s_InvokerIndices[117] =
 	3967,
 	3811,
 	3967,
+	3873,
+	3967,
+	3873,
+	3234,
+	3967,
+	3811,
+	3967,
+	3873,
+	3967,
+	3873,
+	3234,
+	3967,
+	3811,
 	3873,
 	3967,
 	3873,
@@ -490,7 +550,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	117,
+	132,
 	s_methodPointers,
 	0,
 	NULL,
