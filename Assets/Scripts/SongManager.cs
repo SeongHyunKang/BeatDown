@@ -77,8 +77,8 @@ public class SongManager : MonoBehaviour
         else if (Application.platform == RuntimePlatform.Android)
         {
             print("Running on Android");
-            string filePath = Path.Combine ("jar:file://" + Application.dataPath + "!assets/", fileLocation);
-            midiFile = MidiFile.Read(filePath);
+            //string filePath = Path.Combine ("jar:file://" + Application.dataPath + "!assets/", fileLocation);
+            midiFile = MidiFile.Read("jar:file://" + Application.streamingAssetsPath + "!assets/" + fileLocation);
         }
         
         GetDataFromMidi();

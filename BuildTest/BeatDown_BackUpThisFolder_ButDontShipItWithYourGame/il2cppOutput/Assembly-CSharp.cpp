@@ -441,11 +441,14 @@ IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_
 IL2CPP_EXTERN_C String_t* _stringLiteral062DB096C728515E033CF8C48A1C1F0B9A79384B;
 IL2CPP_EXTERN_C String_t* _stringLiteral06CF41BA66D0BBD786673B743CD4840A4EE6CA18;
 IL2CPP_EXTERN_C String_t* _stringLiteral09684B67A5909FD48E1F14A8AF8DDD483C620B10;
+IL2CPP_EXTERN_C String_t* _stringLiteral12EA0C6AE04150ED2C21A6D43AC4D0ECA9AE5C7B;
 IL2CPP_EXTERN_C String_t* _stringLiteral138036CF00DC7AA638E8C59DE658B2B707E5188E;
 IL2CPP_EXTERN_C String_t* _stringLiteral2409165FB90CD4A8B916FCA75790766B82C91748;
 IL2CPP_EXTERN_C String_t* _stringLiteral2602033F3FB1AFC0B39748C6EFF8947CCC0FB539;
+IL2CPP_EXTERN_C String_t* _stringLiteral2746B283A9377664FAC642B633C6E630FD0DA207;
 IL2CPP_EXTERN_C String_t* _stringLiteral28D39098172467059F02372C4A6F08C47866995B;
 IL2CPP_EXTERN_C String_t* _stringLiteral3AE148F4539A6130C80EF45C5441F068ADBF8C8C;
+IL2CPP_EXTERN_C String_t* _stringLiteral3C1A6E4CEFF65BE6A1D9E90EBE606845607965C1;
 IL2CPP_EXTERN_C String_t* _stringLiteral4AE89FEEEB51501CB1CC5D1C0A68B0CDCB71312A;
 IL2CPP_EXTERN_C String_t* _stringLiteral4B8146FB95E4F51B29DA41EB5F6D60F8FD0ECF21;
 IL2CPP_EXTERN_C String_t* _stringLiteral508450355DF2A5BB172C6D21A5C54D7806587D91;
@@ -472,6 +475,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralDF953B1BAAE56A3E1998B6A1DC98AC472A4DAF75
 IL2CPP_EXTERN_C String_t* _stringLiteralE4AF956E9BBB62C3D94BAA5F17FD6C3BEB6FBD86;
 IL2CPP_EXTERN_C String_t* _stringLiteralEF420ABFDDBDA7B9EE665D85EF62E4A437554003;
 IL2CPP_EXTERN_C String_t* _stringLiteralF390DD64EAB82A4E98D1DC0425A52061FB794ABE;
+IL2CPP_EXTERN_C String_t* _stringLiteralF5EDE39CDEAD277EE55B50BFF1C40D68F9A2F12F;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1C9FCB4BBE56BEC6BDEF6E4BA1E5DFF91614D7CE_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m42DA4DEA19EB60D80CBED7413ADEB27FA033C77B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisBoxCollider2D_tF860C7737FFB062CEC06577E0CD8364EEC1D4EDA_m8E881B105EA2AA2D9E3CFB68EE0924719FA96813_RuntimeMethod_var;
@@ -4602,8 +4606,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SongManager_ReadFromWebsite_m4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SongManager_ReadFromFile_m6CEA2114484CDD3290DB43DE6BA116697898364F (SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3* __this, const RuntimeMethod* method) ;
 // System.Void SongManager/<ReadFromWebsite>d__14::.ctor(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CReadFromWebsiteU3Ed__14__ctor_m27853A74CE538FE059BA3362D84225CA901664AB (U3CReadFromWebsiteU3Ed__14_t4FC8A1D0684115D48ACE52B842DE5624AD9E1A8C* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.Application::get_isEditor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Application_get_isEditor_mEAC51E3ACE6DCE438087FB14BD75A3C219D354D0 (const RuntimeMethod* method) ;
 // Melanchall.DryWetMidi.Core.MidiFile Melanchall.DryWetMidi.Core.MidiFile::Read(System.String,Melanchall.DryWetMidi.Core.ReadingSettings)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MidiFile_tAA982CB4F6D670B3B5AB422344082BCB8A4A5F84* MidiFile_Read_m067EDA91ED1E76DEC56E44E80DDB9622256560E6 (String_t* ___0_filePath, ReadingSettings_tF6FB07BE4370AC0C2C6558DE6E4212766ED2A53F* ___1_settings, const RuntimeMethod* method) ;
+// UnityEngine.RuntimePlatform UnityEngine.Application::get_platform()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138 (const RuntimeMethod* method) ;
+// System.String System.String::Concat(System.String,System.String,System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m093934F71A9B351911EE46311674ED463B180006 (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, String_t* ___3_str3, const RuntimeMethod* method) ;
 // System.Void SongManager::GetDataFromMidi()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SongManager_GetDataFromMidi_mD408189890DEE65235775E407BEEDEDCE9DD9BCB (SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3* __this, const RuntimeMethod* method) ;
 // System.Collections.Generic.ICollection`1<Melanchall.DryWetMidi.Interaction.Note> Melanchall.DryWetMidi.Interaction.NotesManagingUtilities::GetNotes(Melanchall.DryWetMidi.Core.MidiFile,Melanchall.DryWetMidi.Interaction.NoteDetectionSettings)
@@ -4838,84 +4848,91 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Update_m7F29D8E933B8D21D2E67
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
 	{
-		// if ((Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began) || isGameover && Input.GetMouseButtonDown(0))
-		int32_t L_0;
-		L_0 = Input_get_touchCount_m057388BFC67A0F4CA53764B1022867ED81D01E39(NULL);
-		if ((((int32_t)L_0) <= ((int32_t)0)))
+		// if ((isGameover && Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began) || isGameover && Input.GetMouseButtonDown(0))
+		bool L_0 = __this->___isGameover_5;
+		if (!L_0)
 		{
-			goto IL_0018;
+			goto IL_0020;
 		}
 	}
 	{
-		Touch_t03E51455ED508492B3F278903A0114FA0E87B417 L_1;
-		L_1 = Input_GetTouch_m75D99FE801A94279874FA8DC6B6ADAD35F5123B1(0, NULL);
-		V_0 = L_1;
-		int32_t L_2;
-		L_2 = Touch_get_phase_mB82409FB2BE1C32ABDBA6A72E52A099D28AB70B0((&V_0), NULL);
-		if (!L_2)
+		int32_t L_1;
+		L_1 = Input_get_touchCount_m057388BFC67A0F4CA53764B1022867ED81D01E39(NULL);
+		if ((((int32_t)L_1) <= ((int32_t)0)))
 		{
-			goto IL_0028;
+			goto IL_0020;
 		}
 	}
-
-IL_0018:
 	{
-		bool L_3 = __this->___isGameover_5;
+		Touch_t03E51455ED508492B3F278903A0114FA0E87B417 L_2;
+		L_2 = Input_GetTouch_m75D99FE801A94279874FA8DC6B6ADAD35F5123B1(0, NULL);
+		V_0 = L_2;
+		int32_t L_3;
+		L_3 = Touch_get_phase_mB82409FB2BE1C32ABDBA6A72E52A099D28AB70B0((&V_0), NULL);
 		if (!L_3)
 		{
-			goto IL_002e;
-		}
-	}
-	{
-		bool L_4;
-		L_4 = Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3(0, NULL);
-		if (!L_4)
-		{
-			goto IL_002e;
+			goto IL_0030;
 		}
 	}
 
-IL_0028:
+IL_0020:
+	{
+		bool L_4 = __this->___isGameover_5;
+		if (!L_4)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		bool L_5;
+		L_5 = Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3(0, NULL);
+		if (!L_5)
+		{
+			goto IL_0036;
+		}
+	}
+
+IL_0030:
 	{
 		// SceneManager.LoadScene(0);
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_m0957E62F2A0A0243C79394E5B74E8EFA86BE5ED1(0, NULL);
 	}
 
-IL_002e:
+IL_0036:
 	{
 		// if (!isGameover)
-		bool L_5 = __this->___isGameover_5;
-		if (L_5)
+		bool L_6 = __this->___isGameover_5;
+		if (L_6)
 		{
-			goto IL_0088;
+			goto IL_0090;
 		}
 	}
 	{
 		// float currentTime = Time.time - startTime;
-		float L_6;
-		L_6 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
-		float L_7 = __this->___startTime_9;
-		V_1 = ((float)il2cpp_codegen_subtract(L_6, L_7));
+		float L_7;
+		L_7 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_8 = __this->___startTime_9;
+		V_1 = ((float)il2cpp_codegen_subtract(L_7, L_8));
 		// distance = currentTime;
-		float L_8 = V_1;
-		__this->___distance_8 = L_8;
+		float L_9 = V_1;
+		__this->___distance_8 = L_9;
 		// float distanceWithDecimal = Mathf.Floor(distance * 100) / 100;
-		float L_9 = __this->___distance_8;
-		float L_10;
-		L_10 = floorf(((float)il2cpp_codegen_multiply(L_9, (100.0f))));
-		V_2 = ((float)(L_10/(100.0f)));
+		float L_10 = __this->___distance_8;
+		float L_11;
+		L_11 = floorf(((float)il2cpp_codegen_multiply(L_10, (100.0f))));
+		V_2 = ((float)(L_11/(100.0f)));
 		// scoreText.text = "Distance : " + distanceWithDecimal.ToString("F2") + "m";
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_11 = __this->___scoreText_6;
-		String_t* L_12;
-		L_12 = Single_ToString_m3F2C4433B6ADFA5ED8E3F14ED19CD23014E5179D((&V_2), _stringLiteral2409165FB90CD4A8B916FCA75790766B82C91748, NULL);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_12 = __this->___scoreText_6;
 		String_t* L_13;
-		L_13 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralBCF0ED813C341816D730826DA5E6B02C30A25F7C, L_12, _stringLiteralC1771FD048FA0C5283A6D1085A6C3493F05C1302, NULL);
-		NullCheck(L_11);
-		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_11, L_13);
+		L_13 = Single_ToString_m3F2C4433B6ADFA5ED8E3F14ED19CD23014E5179D((&V_2), _stringLiteral2409165FB90CD4A8B916FCA75790766B82C91748, NULL);
+		String_t* L_14;
+		L_14 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralBCF0ED813C341816D730826DA5E6B02C30A25F7C, L_13, _stringLiteralC1771FD048FA0C5283A6D1085A6C3493F05C1302, NULL);
+		NullCheck(L_12);
+		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_12, L_14);
 	}
 
-IL_0088:
+IL_0090:
 	{
 		// }
 		return;
@@ -7901,20 +7918,65 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SongManager_ReadFromFile_m6CEA2114484CDD
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral12EA0C6AE04150ED2C21A6D43AC4D0ECA9AE5C7B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2746B283A9377664FAC642B633C6E630FD0DA207);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3C1A6E4CEFF65BE6A1D9E90EBE606845607965C1);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral86BBAACC00198DBB3046818AD3FC2AA10AE48DE1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF5EDE39CDEAD277EE55B50BFF1C40D68F9A2F12F);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		// if (Application.isEditor)
+		bool L_0;
+		L_0 = Application_get_isEditor_mEAC51E3ACE6DCE438087FB14BD75A3C219D354D0(NULL);
+		if (!L_0)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		// print("Running on Editor");
+		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteralF5EDE39CDEAD277EE55B50BFF1C40D68F9A2F12F, NULL);
 		// midiFile = MidiFile.Read(Application.streamingAssetsPath + "/" + fileLocation);
-		String_t* L_0;
-		L_0 = Application_get_streamingAssetsPath_mB904BCD9A7A4F18A52C175DE4A81F5DC3010CDB5(NULL);
-		String_t* L_1 = __this->___fileLocation_10;
-		String_t* L_2;
-		L_2 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_0, _stringLiteral86BBAACC00198DBB3046818AD3FC2AA10AE48DE1, L_1, NULL);
-		MidiFile_tAA982CB4F6D670B3B5AB422344082BCB8A4A5F84* L_3;
-		L_3 = MidiFile_Read_m067EDA91ED1E76DEC56E44E80DDB9622256560E6(L_2, (ReadingSettings_tF6FB07BE4370AC0C2C6558DE6E4212766ED2A53F*)NULL, NULL);
-		((SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3_StaticFields*)il2cpp_codegen_static_fields_for(SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3_il2cpp_TypeInfo_var))->___midiFile_14 = L_3;
-		Il2CppCodeGenWriteBarrier((void**)(&((SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3_StaticFields*)il2cpp_codegen_static_fields_for(SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3_il2cpp_TypeInfo_var))->___midiFile_14), (void*)L_3);
+		String_t* L_1;
+		L_1 = Application_get_streamingAssetsPath_mB904BCD9A7A4F18A52C175DE4A81F5DC3010CDB5(NULL);
+		String_t* L_2 = __this->___fileLocation_10;
+		String_t* L_3;
+		L_3 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_1, _stringLiteral86BBAACC00198DBB3046818AD3FC2AA10AE48DE1, L_2, NULL);
+		MidiFile_tAA982CB4F6D670B3B5AB422344082BCB8A4A5F84* L_4;
+		L_4 = MidiFile_Read_m067EDA91ED1E76DEC56E44E80DDB9622256560E6(L_3, (ReadingSettings_tF6FB07BE4370AC0C2C6558DE6E4212766ED2A53F*)NULL, NULL);
+		((SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3_StaticFields*)il2cpp_codegen_static_fields_for(SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3_il2cpp_TypeInfo_var))->___midiFile_14 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3_StaticFields*)il2cpp_codegen_static_fields_for(SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3_il2cpp_TypeInfo_var))->___midiFile_14), (void*)L_4);
+		goto IL_006b;
+	}
+
+IL_0033:
+	{
+		// else if (Application.platform == RuntimePlatform.Android)
+		int32_t L_5;
+		L_5 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
+		if ((!(((uint32_t)L_5) == ((uint32_t)((int32_t)11)))))
+		{
+			goto IL_006b;
+		}
+	}
+	{
+		// print("Running on Android");
+		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteral3C1A6E4CEFF65BE6A1D9E90EBE606845607965C1, NULL);
+		// midiFile = MidiFile.Read("jar:file://" + Application.streamingAssetsPath + "!assets/" + fileLocation);
+		String_t* L_6;
+		L_6 = Application_get_streamingAssetsPath_mB904BCD9A7A4F18A52C175DE4A81F5DC3010CDB5(NULL);
+		String_t* L_7 = __this->___fileLocation_10;
+		String_t* L_8;
+		L_8 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteral2746B283A9377664FAC642B633C6E630FD0DA207, L_6, _stringLiteral12EA0C6AE04150ED2C21A6D43AC4D0ECA9AE5C7B, L_7, NULL);
+		MidiFile_tAA982CB4F6D670B3B5AB422344082BCB8A4A5F84* L_9;
+		L_9 = MidiFile_Read_m067EDA91ED1E76DEC56E44E80DDB9622256560E6(L_8, (ReadingSettings_tF6FB07BE4370AC0C2C6558DE6E4212766ED2A53F*)NULL, NULL);
+		((SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3_StaticFields*)il2cpp_codegen_static_fields_for(SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3_il2cpp_TypeInfo_var))->___midiFile_14 = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&((SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3_StaticFields*)il2cpp_codegen_static_fields_for(SongManager_t1900AA9B3EE9F256DB919A948D67D5A1BEF117B3_il2cpp_TypeInfo_var))->___midiFile_14), (void*)L_9);
+	}
+
+IL_006b:
+	{
 		// GetDataFromMidi();
 		SongManager_GetDataFromMidi_mD408189890DEE65235775E407BEEDEDCE9DD9BCB(__this, NULL);
 		// }
