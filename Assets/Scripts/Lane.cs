@@ -19,7 +19,6 @@ public class Lane : MonoBehaviour
 
     void Start()
     {
-        // 외부 UI 버튼에 클릭 이벤트 핸들러 설정
         inputButton.onClick.AddListener(InputButtonClicked);
     }
 

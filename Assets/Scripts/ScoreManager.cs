@@ -44,7 +44,6 @@ public class ScoreManager : MonoBehaviour
     {
         scoreText.text = "Combo : " + comboScore.ToString();
         
-        // Ranking -> better if not on update for efficiency, but I placed it here for convinience
         if (RankScores.Count != 0)
         {
             if (highestCombo >= RankScores[0])
